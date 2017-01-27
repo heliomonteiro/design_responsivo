@@ -1,0 +1,12 @@
+/*================ RESET =====================*/
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300, box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+/* 
+  --border-box-- 
+  Evita alterar a dimensão do elemento causado por padding, por exemplo
+*/
+
+body {background-color: #f5f5f5;} /* fundo cinza */
+a {text-decoration: none;} /* link sem estilo */
+li {list-style: none;} /* lista sem estilo */
+img {max-width: 100%;} /* imagens responsivas */
