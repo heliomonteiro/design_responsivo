@@ -1,6 +1,6 @@
 /*================ RESET =====================*/
 * {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300, box-sizing: border-box;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;}
 /* 
   --border-box-- 
   Evita alterar a dimensão do elemento causado por padding, por exemplo
@@ -10,3 +10,7 @@ body {background-color: #f5f5f5;} /* fundo cinza */
 a {text-decoration: none;} /* link sem estilo */
 li {list-style: none;} /* lista sem estilo */
 img {max-width: 100%;} /* imagens responsivas */
+
+/* CABEÇALHO */
+.cabecalho {width: 100%; float: left; padding: 3% 4%;}
+.logo {width: 56px; height: 56px; float: left; background: url(../img/logo-mobile.png) center center/56px no-repeat; font-size: 0;}
