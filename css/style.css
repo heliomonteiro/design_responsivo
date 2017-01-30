@@ -52,13 +52,8 @@ img {max-width: 100%;} /* imagens responsivas */
 .social-icons a:hover {color: rgb(255,255,255);}
 .copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
 
-/* MEDIA TYPES
-screen
-Para monitores ou dispositivos com telas coloridas e resolução adequada.
-print
-Para impressoras. Muito usado para dar uma versão de impressão do site.
-*/
-@media screen and (min-width: 320px) {
-.title h2 {font-size: 2.5em; color: red; font-weight: 700;}
-.title h3 {font-size: 1.5em; color: blue;}
+/* =================== MOBILE FIRST ======================*/
+@media screen and (min-width: 480px) {
+.logo {width: 214px; background: url(../img/logo.png) center center/214px no-repeat;}
+.btn {font-size: 2em;}
 }
